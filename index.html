@@ -199,7 +199,7 @@ function updateClock() {
   document.getElementById('fixedClock').textContent = fullTime;
 
   // Theme
-  if (h >= 18 || h <= 5) {
+  if (h >= 19 || h <= 4) {
     document.body.style.background = getComputedStyle(document.documentElement).getPropertyValue('--bg-dark');
     document.body.style.color = getComputedStyle(document.documentElement).getPropertyValue('--text-dark');
     document.querySelectorAll('button').forEach(btn => {
